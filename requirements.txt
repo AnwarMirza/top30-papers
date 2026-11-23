@@ -1,0 +1,26 @@
+# Core
+numpy
+pandas
+matplotlib
+scipy
+jupyter
+
+# Classical ML / CV (Track A)
+scikit-learn
+scikit-image
+opencv-python
+xgboost
+
+# Deep learning (TensorFlow/Keras now; PyTorch is added in the "Port" phase)
+tensorflow
+tensorflow-metal; sys_platform == "darwin" and platform_machine == "arm64"
+keras-hub
+gymnasium[atari]
+gensim
+
+# Publishing
+mkdocs
+huggingface_hub
+gradio
+
+# Later (Port phase): torch torchvision ultralytics diffusers

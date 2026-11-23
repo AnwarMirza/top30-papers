@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+
+# macOS
+.DS_Store
+
+# Data and weights (keep the repo small; results/ CSVs and figures ARE committed)
+data/
+datasets/
+checkpoints/
+*.keras
+*.h5
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+wandb/
+mlruns/
+lightning_logs/
+
+# MkDocs build output
+site/
